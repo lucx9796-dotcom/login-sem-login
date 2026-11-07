@@ -1,0 +1,18 @@
+name: HybridLogin
+main: dev.hybridlogin.HybridLogin
+version: 1.0.0
+api-version: '1.21'
+depend: [ProtocolLib]
+description: Login hibrido - original entra direto, pirata precisa de login.
+commands:
+  login:
+    description: Entrar com sua senha
+    usage: /login <senha>
+    aliases: [l]
+  register:
+    description: Registrar sua senha
+    usage: /register <senha> <repetir senha>
+    aliases: [reg]
+  changepassword:
+    description: Trocar sua senha
+    usage: /changepassword <atual> <nova>

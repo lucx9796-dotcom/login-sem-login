@@ -1,0 +1,34 @@
+# Segundos que o pirata tem para logar antes de ser kickado
+login-timeout-seconds: 60
+# Tentativas erradas de senha antes do kick
+max-attempts: 5
+# Tamanho minimo da senha
+min-password-length: 6
+# Pirata que reconectar do mesmo IP em ate X minutos nao precisa logar de novo (0 = desligado)
+session-minutes: 0
+
+messages:
+  please-login: "&eUse &f/login <senha> &epara entrar."
+  please-register: "&eUse &f/register <senha> <repetir senha> &epara se registrar."
+  premium-welcome: "&aConta original verificada. Bem-vindo!"
+  login-ok: "&aLogin realizado com sucesso!"
+  register-ok: "&aRegistrado com sucesso!"
+  session-ok: "&aSessao retomada, voce ja esta logado."
+  already-logged: "&cVoce ja esta logado."
+  not-registered: "&cVoce ainda nao esta registrado. Use /register."
+  already-registered: "&cVoce ja esta registrado. Use /login."
+  wrong-password: "&cSenha incorreta."
+  passwords-differ: "&cAs senhas nao sao iguais."
+  password-short: "&cA senha precisa ter pelo menos 6 caracteres."
+  usage-login: "&cUso: /login <senha>"
+  usage-register: "&cUso: /register <senha> <repetir senha>"
+  usage-change: "&cUso: /changepassword <atual> <nova>"
+  password-changed: "&aSenha alterada!"
+  premium-no-password: "&cContas originais nao usam senha."
+  must-login: "&cVoce precisa fazer login primeiro."
+  kick-timeout: "&cTempo de login esgotado."
+  kick-attempts: "&cMuitas tentativas erradas."
+  kick-premium-name: "&cEste nick pertence a uma conta original.\n&7Entre com a conta original ou use outro nick."
+  kick-premium-failed: "&cNao foi possivel verificar sua conta original.\n&7Reinicie o Minecraft e tente novamente."
+  kick-api-error: "&cNao foi possivel verificar seu nick agora.\n&7Tente novamente em instantes."
+  kick-error: "&cErro no login. Tente novamente."
